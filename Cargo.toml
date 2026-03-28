@@ -72,5 +72,5 @@ async-io = "2"
 
 # TODO: Remove these before next release, needed for IDF 6.0+ support
 [patch.crates-io]
-esp-idf-sys = { git = "https://github.com/esp-rs/esp-idf-sys", branch = "master" }
+esp-idf-sys = { git = "https://github.com/drinkcat/esp-idf-sys", branch = "comp-from-env" }
 esp-idf-hal = { git = "https://github.com/esp-rs/esp-idf-hal", branch = "master" }
